@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\heetj\\source\\repos\\WebApplication4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E28FA579-A9B0-4DD6-8FAB-62CBC49C95EC}|WebApplication4.csproj|C:\\Users\\heetj\\source\\repos\\WebApplication4\\defult.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28FA579-A9B0-4DD6-8FAB-62CBC49C95EC}|WebApplication4.csproj|solutionrelative:defult.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28FA579-A9B0-4DD6-8FAB-62CBC49C95EC}|WebApplication4.csproj|c:\\users\\heetj\\source\\repos\\webapplication4\\defult.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E28FA579-A9B0-4DD6-8FAB-62CBC49C95EC}|WebApplication4.csproj|solutionrelative:defult.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28FA579-A9B0-4DD6-8FAB-62CBC49C95EC}|WebApplication4.csproj|C:\\Users\\heetj\\source\\repos\\WebApplication4\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E28FA579-A9B0-4DD6-8FAB-62CBC49C95EC}|WebApplication4.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "defult.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\heetj\\source\\repos\\WebApplication4\\defult.aspx.cs",
+              "RelativeDocumentMoniker": "defult.aspx.cs",
+              "ToolTip": "C:\\Users\\heetj\\source\\repos\\WebApplication4\\defult.aspx.cs",
+              "RelativeToolTip": "defult.aspx.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAYwJYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T13:42:20.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\heetj\\source\\repos\\WebApplication4\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\heetj\\source\\repos\\WebApplication4\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-08-10T13:34:28.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "defult.aspx",
+              "DocumentMoniker": "C:\\Users\\heetj\\source\\repos\\WebApplication4\\defult.aspx",
+              "RelativeDocumentMoniker": "defult.aspx",
+              "ToolTip": "C:\\Users\\heetj\\source\\repos\\WebApplication4\\defult.aspx",
+              "RelativeToolTip": "defult.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-08-04T05:28:52.322Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
