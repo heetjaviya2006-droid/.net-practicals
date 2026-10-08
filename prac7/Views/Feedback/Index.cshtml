@@ -1,0 +1,24 @@
+@model prac7.Models.Feedback
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Feedback";
+}
+@{
+    ViewBag.Title = "Feedback";
+}
+
+<h2>Submit Feedback</h2>
+
+@using (Html.BeginForm("Submit", "Feedback", FormMethod.Post))
+{
+    @Html.Partial("_FeedbackForm", Model)
+
+    <br />
+
+    <input type="submit" value="Submit Feedback" />
+}
+
+@if (ViewBag.Message != null)
+{
+    <p>@ViewBag.Message</p>
+}
