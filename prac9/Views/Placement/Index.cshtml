@@ -1,0 +1,46 @@
+﻿@model Practical9.Models.PlacementDashboard
+
+@{
+    ViewBag.Title = "Placement Dashboard";
+
+    var grid = new WebGrid(Model.Students);
+}
+
+<h2>College Placement Dashboard</h2>
+
+<hr />
+
+<h3>Placement Statistics</h3>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Total Students</th>
+        <th>Placed Students</th>
+        <th>Total Companies</th>
+        <th>Placement Percentage</th>
+    </tr>
+
+    <tr>
+        <td>@Model.TotalStudents</td>
+        <td>@Model.PlacedStudents</td>
+        <td>@Model.TotalCompanies</td>
+        <td>@Model.PlacementPercentage.ToString("0.00")%</td>
+    </tr>
+</table>
+
+<hr />
+
+<h3>Student Placement Records</h3>
+
+@grid.GetHtml(
+    tableStyle: "table table-bordered table-striped",
+    headerStyle: "table-dark",
+    columns: grid.Columns(
+        grid.Column("StudentId", "Student ID"),
+        grid.Column("StudentName", "Student Name"),
+        grid.Column("Branch", "Branch"),
+        grid.Column("CompanyName", "Company"),
+        grid.Column("Package", "Package (LPA)"),
+        grid.Column("Status", "Placement Status")
+    )
+)
